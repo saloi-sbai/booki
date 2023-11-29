@@ -62,6 +62,7 @@ a {
 }
 /**************************************************** Header **********************************/
 /**************** Nav *****************/
+
 header img {
 width: 189.854px;
 height: 59.048px;
@@ -79,7 +80,49 @@ a:hover {
     color: var(--main-color);
     border-top: solid;
 }
-/**************************************/
+/**********************************************/
+/******************* Search barre **************/
+form {
+display: flex;
+width: 377px;
+height: 49px;
+align-items: center;
+gap: 24px;
+border-radius: 15px;
+border: 1px solid var(--Grey, #F2F2F2);
+background: var(--White, #FFF);
+
+}
+.location-dot {
+width: 50px;
+height: 49px;
+flex-shrink: 0;
+
+}
+.search_input {
+color: var(--Black, #000);
+text-align: center;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+
+}
+.search_btn {
+display: flex;
+height: 49px;
+padding: 15px 16px;
+align-items: center;
+gap: 10px;
+border-radius: 0px 15px 15px 0px;
+border: 1px solid var(--Blue, #0065FC);
+background: var(--Blue, #0065FC);
+color: #FFF;
+font-weight: bold;
+font-size: 18px;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
