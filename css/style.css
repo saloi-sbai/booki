@@ -269,7 +269,17 @@ font-weight: 700;
 line-height: normal;
 align-self: stretch;
 }
-
+.plus {
+  text-align: left;
+}
+.plus p {
+color: #000;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 /****** Populaires ***********/
 .populaires {
   width: 32%;
