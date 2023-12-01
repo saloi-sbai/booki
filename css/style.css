@@ -20,6 +20,9 @@ body {
   display: flex;
   justify-content: center;
 }
+button {
+  cursor: pointer;
+}
 
 .main-container {
   width: 100%;
@@ -70,7 +73,7 @@ gap: 934.91px;
 align-self: stretch;
 }
 
-header img {
+.logo {
 display: flex;
 padding: 30px 50px;
 flex-direction: column;
@@ -82,6 +85,7 @@ display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 gap: 68px;
+margin-top: 20px;
 }
 a {
 color: #000;
@@ -92,13 +96,30 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-header a:hover {
+nav a:hover {
   color: var(--main-color);
   border-top: solid;
 }
 /**********************************************/
 /******************* Search barre **************/
-.searche_filtre h1 {
+.search_filtre {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  align-self: stretch;
+  margin-bottom: 35px;
+}
+.headLine {
+  display: flex;
+  height: 53px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-items: stretch;
+  color: #000;
+}
+.headLine h1 {
 color: #000;
 font-family: Raleway;
 font-size: 22px;
@@ -106,7 +127,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.searche_filtre p {
+.headLine p {
 color: #000;
 font-family: Raleway;
 font-size: 16px;
@@ -184,7 +205,7 @@ font-weight: 700;
 line-height: normal;
 }
 .filtre_btn:hover {
-    background-color: #DEEBFF;
+  background-color: #DEEBFF;
 }
 .infos {
 display: flex;
@@ -192,6 +213,7 @@ height: 24px;
 align-items: center;
 gap: 10px;
 align-self: stretch;
+/* margin-bottom: 20px; */
 }
 .infos p {
 color: #000;
