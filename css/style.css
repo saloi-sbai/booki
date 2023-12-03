@@ -256,7 +256,7 @@ line-height: normal;
 display: flex;
 padding-bottom: 15px;
 flex-direction: column;
-align-items: center;
+/* align-items: center; */
 gap: 4px;
 flex: 1 0 0;
 border-radius: 20px;
@@ -269,6 +269,14 @@ width: 14rem;
 align-self: stretch;
 border-radius: 20px 20px 0px 0px;
 border: 5px solid var(--White, #FFF);
+}
+.card_heber_txt {
+  padding-left: 10px;
+  text-align: left;
+}
+.star {
+  text-align: left;
+  padding-left: 10px;
 }
 .hebergements h2 {
 color: #000;
