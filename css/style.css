@@ -394,6 +394,12 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.activite_text {
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 15px;
+  width: 100%;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
