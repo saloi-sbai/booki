@@ -239,24 +239,33 @@ line-height: normal;
 /****** Hebergements ***********/
 .hebergements {
   width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .hebergements-cards {
   display: flex;
-  padding: 30px;
+  align-items:flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
-  align-items: flex-start;
   gap: 30px;
-  flex: 1 0 0;
-  align-items: stretch;
+  align-self: stretch;
+  margin-bottom: 30px;
 }
 .card_heber {
+display: flex;
+padding-bottom: 15px;
+flex-direction: column;
+align-items: center;
+gap: 4px;
+flex: 1 0 0;
 border-radius: 20px;
 background: #FFF;
 box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 }
 .card_heber img {
-height: 150px;
-width: 100%;
+height: 7rem;
+width: 14rem;
 align-self: stretch;
 border-radius: 20px 20px 0px 0px;
 border: 5px solid var(--White, #FFF);
@@ -269,6 +278,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 align-self: stretch;
+margin-bottom: 1rem;
 }
 .plus {
   text-align: left;
