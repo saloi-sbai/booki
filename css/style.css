@@ -67,25 +67,26 @@ a {
 /**************** Nav *****************/
 header {
 display: flex;
-justify-content: center;
+justify-content:space-between;
 align-items: flex-start;
 gap: 934.91px;
 align-self: stretch;
 }
 
 .logo {
-display: flex;
-padding: 30px 50px;
+padding: 30px 0px;
+/* display: flex;
 flex-direction: column;
 align-items: flex-start;
-gap: 10px;
+gap: 10px; */
 }
 nav {
 display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 gap: 68px;
-margin-top: 20px;
+/* padding: 10px; */
+/* margin-top: 0px; */
 }
 a {
 color: #000;
@@ -95,6 +96,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+padding: 10px;
 }
 nav a:hover {
   color: var(--main-color);
@@ -269,6 +271,7 @@ width: 14rem;
 align-self: stretch;
 border-radius: 20px 20px 0px 0px;
 border: 5px solid var(--White, #FFF);
+object-fit: cover;
 }
 .card_heber_txt {
   padding-left: 10px;
@@ -351,7 +354,6 @@ flex-direction: column;
 align-items: flex-start;
 gap: 30px;
 align-self: stretch;
-
 }
 .activites h2 {
 color: #000;
@@ -364,9 +366,9 @@ line-height: normal;
 .activites_detail {
 display: flex;
 align-items: flex-start;
+justify-content: center;
 gap: 30px;
 align-self: stretch;
-
 }
 .activite {
 display: flex;
@@ -404,6 +406,7 @@ line-height: normal;
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
   .hebergements-and-populaires {

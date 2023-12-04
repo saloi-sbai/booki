@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Booki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,7 +24,7 @@
     <div class="main-container">
       <!-- Header -->
       <header>
-        <a href="index.html" target="_blank">
+        <a href="index.html">
         <div class="logo">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -65,8 +65,8 @@
         </div>
         </a>
         <nav>
-          <a href="#">Hébergements</a>
-          <a href="#">Activités</a>
+          <a href="#hebergement">Hébergements</a>
+          <a href="#activite">Activités</a>
         </nav>
       </header>
       <!-- Fin Header -->
@@ -76,7 +76,7 @@
         <h1>Trouvez votre hébergement pour des vacances de reve</h1>
         <p>En plein centre-ville ou en pleine nature</p>
         </div>
-        <form action="">
+        <form>
           <i class="location-dot">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -194,7 +194,7 @@
         <div class="hebergements-and-populaires">
           <!------------------- Hebergements ------------------>
           <section class="hebergements">
-            <h2>Hébergement à Marseille</h2>
+            <h2 id="hebergement">Hébergement à Marseille</h2>
             <div class="hebergements-cards">
               <a href="#">
                 <article class="card_heber">
@@ -203,7 +203,7 @@
                     alt="image de chambre d'hotel"
                   />
                   <div class="card_heber_txt">
-                  <h3>Hotel du port</h3>
+                  <h3>Hôtel du port</h3>
                   <p>Nuit a partir de 52 <span class="euro">€</span></p>
                   </div>
                   <div class="star">
@@ -226,8 +226,8 @@
                     alt="image de chambre d'hotel"
                   />
                   <div class="card_heber_txt">
-                  <h3>Hotel du port</h3>
-                  <p>Nuit a partir de 52 <span class="euro">€</span></p>
+                  <h3>Hôtel chez Amina</h3>
+                  <p>Nuit a partir de 96 <span class="euro">€</span></p>
                   </div>
                   <div class="star">
                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -249,8 +249,8 @@
                     alt="image de chambre d'hotel"
                   />
                   <div class="card_heber_txt">
-                  <h3>Hotel du port</h3>
-                  <p>Nuit a partir de 52 <span class="euro">€</span></p>
+                  <h3>Hôtel Les mouettes</h3>
+                  <p>Nuit a partir de 76 <span class="euro">€</span></p>
                   </div>
                   <div class="star">
                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -272,8 +272,8 @@
                     alt="image de chambre d'hotel"
                   />
                   <div class="card_heber_txt">
-                  <h3>Hotel du port</h3>
-                  <p>Nuit a partir de 52 <span class="euro">€</span></p>
+                  <h3>Hôtel de la mer</h3>
+                  <p>Nuit a partir de 46 <span class="euro">€</span></p>
                   </div>
                   <div class="star">
                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -295,8 +295,8 @@
                     alt="image de chambre d'hotel"
                   />
                   <div class="card_heber_txt">
-                  <h3>Hotel du port</h3>
-                  <p>Nuit a partir de 52 <span class="euro">€</span></p>
+                  <h3>Auberge La Canbière</h3>
+                  <p>Nuit a partir de 25 <span class="euro">€</span></p>
                   </div>
                   <div class="star">
                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -318,8 +318,8 @@
                     alt="image de chambre d'hotel"
                   />
                   <div class="card_heber_txt">
-                  <h3>Hotel du port</h3>
-                  <p>Nuit a partir de 52 <span class="euro">€</span></p>
+                  <h3>Auberge Le Panier</h3>
+                  <p>Nuit a partir de 23 <span class="euro">€</span></p>
                   </div>
                   <div class="star">
                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -436,7 +436,7 @@
         </div>
         <!--------------- Activités ------------------>
         <section class="activites">
-          <h2>Activités à Marseille</h2>
+          <h2 id="activite">Activités à Marseille</h2>
           <div class="activites_detail">
             <a href="#">
               <article class="activite">
