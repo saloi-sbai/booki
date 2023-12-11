@@ -20,6 +20,7 @@
 body {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 button {
   cursor: pointer;
@@ -28,6 +29,7 @@ button {
 .main-container {
   width: 100%;
   max-width: 1440px;
+  min-width: 1025px;
   padding: 0 50px;
   box-sizing: border-box;
 }
@@ -71,7 +73,7 @@ header {
 display: flex;
 justify-content:space-between;
 align-items: flex-start;
-gap: 934.91px;
+/* gap: 934.91px; */
 align-self: stretch;
 }
 
@@ -151,10 +153,21 @@ form {
   background: var(--White, #fff);
 }
 
-.location-dot {
-  width: 50px;
-  height: 49px;
-  flex-shrink: 0;
+form i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px 0 0 15px;
+  background-color: var(--Grey, #f2f2f2);
+}
+
+.fa-location-dot {
+  color: #000;
+  padding: 1rem;
+}
+
+.fa-person {
+  font-size: 1.3rem;
 }
 
 .search_input {
@@ -501,6 +514,19 @@ border-top: none;
   .populaires-cards .card-subtitle {
     font-size: 13px;
   }
+  
+}
+
+@media screen and (max-width: 1024px) {
+  .activites_detail {
+    flex-wrap: wrap;
+  }
+   /* body {
+    overflow-x: hidden;
+  } */
+  /* nav {
+    gap: 40px;
+  } */
 }
 
 /* Small devices (phones, less than 768px) */
