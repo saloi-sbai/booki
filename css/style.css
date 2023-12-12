@@ -73,7 +73,6 @@ header {
 display: flex;
 justify-content:space-between;
 align-items: flex-start;
-/* gap: 934.91px; */
 align-self: stretch;
 }
 
@@ -240,6 +239,22 @@ gap: 10px;
 align-self: stretch;
 }
 
+.symbol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 2px solid var(--Grey, #f2f2f2);
+}
+
+.symbol a {
+  color: #0065fc;
+  font-family: Raleway;
+  font-size: 16px;
+}
+
 .infos p {
 color: #000;
 font-family: Raleway;
@@ -381,14 +396,16 @@ line-height: normal;
 /************************ Activités ****************************/
 .activites {
 display: flex;
-padding: 30px;
 flex-direction: column;
-align-items: flex-start;
-gap: 30px;
-align-self: stretch;
+justify-content: space-around;
+margin-top: 1rem;
+margin-bottom: 2.5rem;
 }
 
 .activites h2 {
+margin-top: 2.5rem;
+margin-bottom: 1rem;
+margin-left: 1rem;
 color: #000;
 font-family: Raleway;
 font-size: 22px;
@@ -399,10 +416,9 @@ line-height: normal;
 
 .activites_detail {
 display: flex;
-align-items: flex-start;
-justify-content: center;
-gap: 30px;
-align-self: stretch;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
 }
 
 .activite {
@@ -417,7 +433,7 @@ width: 297.5px ;
 }
 
 .activite img {
-width: 297.5px;
+width: 100%;
 height: 380px;
 flex-shrink: 0;
 align-self: stretch;
@@ -515,18 +531,6 @@ border-top: none;
     font-size: 13px;
   }
   
-}
-
-@media screen and (max-width: 1024px) {
-  .activites_detail {
-    flex-wrap: wrap;
-  }
-   /* body {
-    overflow-x: hidden;
-  } */
-  /* nav {
-    gap: 40px;
-  } */
 }
 
 /* Small devices (phones, less than 768px) */
